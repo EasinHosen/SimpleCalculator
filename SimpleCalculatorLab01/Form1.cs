@@ -31,7 +31,7 @@ namespace SimpleCalculatorLab01
 
             res = n1 + n2;
 
-            txtResult.Text = res.ToString();
+            txtResult.Text = res.ToString("F2");
         }
 
         private void btnSub_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace SimpleCalculatorLab01
 
             res = n1 - n2;
 
-            txtResult.Text = res.ToString();
+            txtResult.Text = res.ToString("F2");
         }
 
         private void btnMult_Click(object sender, EventArgs e)
@@ -51,7 +51,7 @@ namespace SimpleCalculatorLab01
 
             res = n1 * n2;
 
-            txtResult.Text = res.ToString();
+            txtResult.Text = res.ToString("F2");
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace SimpleCalculatorLab01
 
             res = n1 / n2;
 
-            txtResult.Text = res.ToString();
+            txtResult.Text = res.ToString("F2");
         }
 
         private void btnMod_Click(object sender, EventArgs e)
@@ -71,7 +71,7 @@ namespace SimpleCalculatorLab01
 
             res = n1 % n2;
 
-            txtResult.Text = res.ToString();
+            txtResult.Text = res.ToString("F2");
         }
     }
 }
